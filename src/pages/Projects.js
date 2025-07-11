@@ -1,8 +1,15 @@
 import React from "react";
+import ProjectsHeader from "../components/ProjectsHeader";
+import FeaturedProject from "../components/FeaturedProject";
+import ProjectGrid from "../components/ProjectGrid";
 
 function Projects() {
     return(
-        <h1>Projects</h1>
+        <>
+            <ProjectsHeader />
+            <FeaturedProject />
+            <ProjectGrid />
+        </>
     )
 }
 

@@ -7,7 +7,7 @@ import ResumeImg from "../images/resume.png"
 
 function Introduction() {
     return (
-        <Container className="text-center py-5 intro-div align-content-center">
+        <Container className="text-center py-3 intro-div align-content-center">
             <Row className="justify-content-center">
                 <Col md={6}>
                     <img
@@ -27,9 +27,11 @@ function Introduction() {
                         <Button variant="outline-dark" href="https://github.com/Jordweinstein">
                             <img src={Github} alt="Github" className="rounded-circle img-fluid logo-img"></img>
                         </Button>
-                        <Button variant="outline-dark">
-                            <img src={ResumeImg} alt="Resume" className="rounded-circle img-fluid logo-img"></img>
-                        </Button>
+                        <a href="/Jordan_Weinstein_Resume.pdf" download>
+                            <Button variant="outline-dark">
+                                <img src={ResumeImg} alt="Resume" className="rounded-circle img-fluid logo-img"></img>
+                            </Button>
+                        </a>
                     </div>
                 </Col>
             </Row>

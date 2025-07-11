@@ -27,3 +27,36 @@
 .intro-div {
   height: 600px;
 }
+
+.experience-card-wrapper {
+  transition: transform 0.3s ease;
+}
+
+.experience-card-wrapper:hover {
+  transform: scale(1.03);
+}
+
+.experience-card-img
+
+#leadership-volunteering {
+  background-color: #92b1e2;
+  max-width: 100%;
+}
+
+.section-title {
+  color: #0f2a54;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.custom-badge {
+  background-color: #92b1e2 !important;
+  color: white;
+  border-radius: 50px; 
+  padding: 0.4em 0.75em;
+  font-size: 0.85rem;
+}
+
+.custom-badge.bg-primary {
+  background-color: #92b1e2 !important;
+}

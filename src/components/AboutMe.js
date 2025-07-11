@@ -9,10 +9,13 @@ function AboutMe() {
         <div>
             <Container fluid className="bg-secondary-subtle">
                 <Row className="align-items-center">
-                    <Col md={6} className="justify-content-center">
+                    <Col md={6} className="p-4 justify-content-center">
                         <h3>Seeking Knowledge</h3>
-                        <p className="text-muted">
-                            CS, Math, and Neuroscience? Random. But not really. 
+                        <p className="p-4 text-muted">
+                            CS, Math, and Neuroscience? Random. But not really. My diverse curriculum mirrors my broad range
+                            of interests and intellectual curiosity. While my main focus is computer science, I enjoy taking
+                            advantage of the math courses at UNC to futher satisfy my problem-solving itch, and by studying
+                            neuroscience I have been able to learn more about something that has always fascinated me.
                         </p>
                     </Col>
                     <Col md={6} className="px-0">
@@ -34,9 +37,9 @@ function AboutMe() {
                             className="w-100 full-image"
                         />
                     </Col>
-                    <Col md={6} className="justify-content-center">
+                    <Col md={6} className="p-4 justify-content-center">
                         <h3>Sharing it with others</h3>
-                        <p className="text-muted">
+                        <p className="p-4 text-muted">
                             I've been a tutor since as long as I can remember. With two little sisters, I've always loved
                             to share what I learn with others. At UNC I carry this on through Girls Who Code and as a UTA (undergraudate
                             teaching assistant) for the CS department. From volunteering with young girls of all different abilities
@@ -49,9 +52,9 @@ function AboutMe() {
 
             <Container fluid className="bg-secondary-subtle">
                 <Row className="align-items-center">
-                    <Col md={6} className="justify-content-center">
+                    <Col md={6} className="p-4 justify-content-center">
                         <h3>Making an Impact</h3>
-                        <p className="text-muted">Hello</p>
+                        <p className="p-4 text-muted">Hello</p>
                     </Col>
                     <Col md={6} className="px-0">
                         <img
