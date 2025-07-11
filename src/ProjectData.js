@@ -36,6 +36,6 @@ export const projects = [
         category: 'Personal Portfolio',
         description: 'A personal web portfolio to highlight career and academic experiences, as well as display technical projects and share more about myself!',
         tags: ['React', 'Bootstrap', 'UI/UX'],
-        link: 'https://github.com/Jordweinstein/react-portfolio' // Update this once new portfolio is deployed
+        link: 'https://github.com/Jordweinstein/personal-portfolio'
     }
 ]
