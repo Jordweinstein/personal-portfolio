@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 
 function Experience() {
     return (
-        <Container className="m-3">
+        <Container fluid className="m-3 px-5">
             <ExperienceSection data={experienceData.internships} title="Internships" />
             <div id="leadership-volunteering">
                 <ExperienceSection data={experienceData.experience} title="Leadership and Volunteering" />

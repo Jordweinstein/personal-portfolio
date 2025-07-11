@@ -33,7 +33,7 @@
 }
 
 .experience-card-wrapper:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
 .experience-card-img
@@ -49,14 +49,15 @@
   padding-bottom: 4px;
 }
 
-.custom-badge {
-  background-color: #92b1e2 !important;
-  color: white;
+/* .custom-badge {
+  background-color: #c8d8f3 !important;
+  color: black;
   border-radius: 50px; 
   padding: 0.4em 0.75em;
   font-size: 0.85rem;
-}
+} */
 
 .custom-badge.bg-primary {
-  background-color: #92b1e2 !important;
+  background-color: #c8d8f3 !important;
+  color: black;
 }

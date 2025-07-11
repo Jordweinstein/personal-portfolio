@@ -54,7 +54,11 @@ function AboutMe() {
                 <Row className="align-items-center">
                     <Col md={6} className="p-4 justify-content-center">
                         <h3>Making an Impact</h3>
-                        <p className="p-4 text-muted">Hello</p>
+                        <p className="p-4 text-muted">
+                            Whether building tools that improve workflows, mentoring students in computer science, or leading initiatives that promote diversity and inclusion, 
+                            I'm most motivated when my work has a meaningful impact. At UNC, I’ve helped organize panels like Women in Tech to amplify underrepresented voices, 
+                            collaborated with nonprofits through CS + Social Good, and contributed to real-world projects during my internships. 
+                        </p>
                     </Col>
                     <Col md={6} className="px-0">
                         <img

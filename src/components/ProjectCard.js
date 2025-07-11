@@ -20,7 +20,7 @@ function ProjectCard({ title, description, tags, category, link }){
                 <Card.Text>{description}</Card.Text>
                 <div>
                     {tags.map((tag, i) => (
-                    <Badge key={i} bg="light" text="dark" className="me-2">{tag}</Badge>
+                    <Badge key={i} text="dark" className="custom-badge me-2">{tag}</Badge>
                     ))}
                 </div>
             </Card.Body>

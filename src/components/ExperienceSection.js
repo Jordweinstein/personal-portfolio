@@ -13,14 +13,14 @@ function ExperienceSection({ data, title }) {
             }
         {title} 
         </h3>
-        <Row>
+        <Row className="g-4">
             {
                 data.map((item, i) => (
-                    <Col key={i} md={6} lg={6} className="mb-4">
+                    <Col key={i} xs={12} md={6} lg={4} className="mb-4">
                         <ExperienceCard 
                             title={item.title} 
                             organization={item.organization} 
-                            date={item.date} r
+                            date={item.date}
                             description={item.description}
                             tags={item.tags} 
                             image={item.image}
