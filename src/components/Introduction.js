@@ -18,7 +18,7 @@ function Introduction() {
                     <h1>Hi, I'm Jordan</h1>
                     <p className="text-muted">
                         Full-Stack developer passionate about seeking knowledge, 
-                        sharing it with others, and applying it to make a difference in the real world.
+                        sharing it with others, and using it to make a difference!
                     </p>
                     <div className="d-flex justify-content-center gap-1 mt-4">
                         <Button variant="outline-dark" href="https://www.linkedin.com/in/jordan-weinstein-aa50661ab/">

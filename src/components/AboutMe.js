@@ -12,7 +12,7 @@ function AboutMe() {
                     <Col md={6} className="p-4 justify-content-center">
                         <h3>Seeking Knowledge</h3>
                         <p className="p-4 text-muted">
-                            CS, Math, and Neuroscience? Random. But not really. My diverse curriculum mirrors my broad range
+                            My diverse curriculum mirrors my broad range
                             of interests and intellectual curiosity. While my main focus is computer science, I enjoy taking
                             advantage of the math courses at UNC to futher satisfy my problem-solving itch, and by studying
                             neuroscience I have been able to learn more about something that has always fascinated me.
@@ -44,7 +44,7 @@ function AboutMe() {
                             to share what I learn with others. At UNC I carry this on through Girls Who Code and as a UTA (undergraudate
                             teaching assistant) for the CS department. From volunteering with young girls of all different abilities
                             to leading workshops for higher-level college students taking advanced programming courses, I’ve learned how to adapt my communication 
-                            style to meet the needs of diverse learners."
+                            style to meet the needs of diverse learners.
                         </p>
                     </Col>
                 </Row>
