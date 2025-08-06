@@ -25,7 +25,6 @@
 
 .intro-div {
   height: 600px;
-  background-color: rgb(210, 222, 238);
   width: 100vw;
   border-radius: 3%;
 }
@@ -58,4 +57,10 @@
 .custom-badge.bg-primary {
   background-color: #c8d8f3 !important;
   color: black;
+}
+
+#about-me {
+  background-color: #f0f4ff;
+  padding: 30px;
+  border-radius: 3%;
 }

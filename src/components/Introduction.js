@@ -7,7 +7,7 @@ import ResumeImg from "../images/resume.png"
 
 function Introduction() {
     return (
-        <Container className="text-center py-3 intro-div align-content-center my-5">
+        <Container className="text-center py-1 intro-div align-content-center my-5">
             <Row className="justify-content-center">
                 <Col md={6}>
                     <img
