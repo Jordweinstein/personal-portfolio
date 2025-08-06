@@ -27,6 +27,7 @@
   height: 600px;
   background-color: rgb(210, 222, 238);
   width: 100vw;
+  border-radius: 3%;
 }
 
 .experience-card-wrapper {
