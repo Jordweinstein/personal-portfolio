@@ -30,8 +30,7 @@ function FeaturedProject() {
                         ))}
                     </div>
                     <div>
-                        {/* <Button variant="dark" className="me-2">Download Link</Button> */}
-                        <Button href="https://github.com/Jordweinstein/campus-closet" target="_blank" rel="noopener noreferrer" variant="outline-dark">Source Code</Button>
+\                        <Button href="https://github.com/Jordweinstein/campus-closet" target="_blank" rel="noopener noreferrer" variant="outline-dark">Source Code</Button>
                     </div>
                 </Col>
             </Row>

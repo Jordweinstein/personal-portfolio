@@ -2,6 +2,7 @@ import React from "react";
 import ExperienceSection from "../components/ExperienceSection";
 import { experienceData } from "../experienceData";
 import { Container } from "react-bootstrap";
+import Skills from "../components/Skills";
 
 function Experience() {
     return (
@@ -10,6 +11,7 @@ function Experience() {
             <div id="leadership-volunteering">
                 <ExperienceSection data={experienceData.experience} title="Leadership and Volunteering" />
             </div>
+            <Skills />
 
         </Container>
     )

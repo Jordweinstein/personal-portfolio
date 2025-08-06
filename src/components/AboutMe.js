@@ -1,76 +1,60 @@
 import React from "react";
-import { Container, Col, Row } from "react-bootstrap";
+import { Container, Col, Row, Card } from "react-bootstrap";
 import unc from "../images/unc.jpg";
 import panel from "../images/panel.jpg"
 import gwc from "../images/gwc-1.jpeg"
 
-function AboutMe() {
-    return (
-        <div>
-            <Container fluid className="bg-secondary-subtle">
-                <Row className="align-items-center">
-                    <Col md={6} className="p-4 justify-content-center">
-                        <h3>Seeking Knowledge</h3>
-                        <p className="p-4 text-muted">
-                            My diverse curriculum mirrors my broad range
-                            of interests and intellectual curiosity. While my main focus is computer science, I enjoy taking
-                            advantage of the math courses at UNC to futher satisfy my problem-solving itch, and by studying
-                            neuroscience I have been able to learn more about something that has always fascinated me.
-                        </p>
-                    </Col>
-                    <Col md={6} className="px-0">
-                        <img
-                            src={unc}
-                            alt="UNC"
-                            className="w-100 full-image"
-                        />
-                    </Col>
-                </Row>
-            </Container>
+const AboutMe = () => {
+  return (
+    <Container id="about-me" className="text-center my-5">
+      <h2 className="fw-bold">My Story</h2>
+      <p className="text-muted mb-5">
+        My journey is guided by three core principles that shape everything I do
+      </p>
 
-            <Container fluid>
-                <Row className="align-items-center">
-                    <Col md={6} className="px-0">
-                        <img
-                            src={gwc}
-                            alt="Panel"
-                            className="w-100 full-image"
-                        />
-                    </Col>
-                    <Col md={6} className="p-4 justify-content-center">
-                        <h3>Sharing it with others</h3>
-                        <p className="p-4 text-muted">
-                            I've been a tutor since as long as I can remember. With two little sisters, I've always loved
-                            to share what I learn with others. At UNC I carry this on through Girls Who Code and as a UTA (undergraudate
-                            teaching assistant) for the CS department. From volunteering with young girls of all different abilities
-                            to leading workshops for higher-level college students taking advanced programming courses, I’ve learned how to adapt my communication 
-                            style to meet the needs of diverse learners.
-                        </p>
-                    </Col>
-                </Row>
-            </Container>
+      <Row className="g-4">
+        {/* Continuous Learning */}
+        <Col md={4}>
+          <Card className="p-4 shadow-sm border-0 h-100">
+            <img src={unc} alt="UNC" className="story-img mb-3 rounded" />
+            <h5 className="fw-bold">Seeking Knowledge</h5>
+            <p className="text-muted">
+            My diverse curriculum mirrors my broad range
+            of interests and intellectual curiosity. While my main focus is CS, the math courses at UNC futher satisfy my problem-solving itch, and by studying
+            neuroscience I have been able to learn more about something that has always fascinated me.
+            </p>
+          </Card>
+        </Col>
 
-            <Container fluid className="bg-secondary-subtle">
-                <Row className="align-items-center">
-                    <Col md={6} className="p-4 justify-content-center">
-                        <h3>Making an Impact</h3>
-                        <p className="p-4 text-muted">
-                            Whether building tools that improve workflows, mentoring students in computer science, or leading initiatives that promote diversity and inclusion, 
+        {/* Knowledge Sharing */}
+        <Col md={4}>
+          <Card className="p-4 shadow-sm border-0 h-100">
+            <img src={panel} alt="Panel" className="story-img mb-3 rounded" />
+            <h5 className="fw-bold">Sharing Knowledge</h5>
+            <p className="text-muted">
+            I've been a tutor since as long as I can remember. With two little sisters, I've always loved
+            to share my knowledge with others. From volunteering with young girls of all different abilities as a Girls Who Code TA
+            to leading workshops for higher-level college students taking COMP 301 at UNC, I’ve learned how to adapt my communication 
+            style to meet the needs of diverse learners.
+            </p>
+          </Card>
+        </Col>
+
+        {/* Making Impact */}
+        <Col md={4}>
+          <Card className="p-4 shadow-sm border-0 h-100">
+            <img src={gwc} alt="girls who code" className="story-img mb-3 rounded" />
+            <h5 className="fw-bold">Making a Difference</h5>
+            <p className="text-muted">
+            Whether building tools that improve workflows, mentoring students in computer science, or leading initiatives that promote diversity and inclusion, 
                             I'm most motivated when my work has a meaningful impact. At UNC, I’ve helped organize panels like Women in Tech to amplify underrepresented voices, 
                             collaborated with nonprofits through CS + Social Good, and contributed to real-world projects during my internships. 
-                        </p>
-                    </Col>
-                    <Col md={6} className="px-0">
-                        <img
-                            src={panel}
-                            alt="UNC"
-                            className="w-100 full-image"
-                        />
-                    </Col>
-                </Row>
-            </Container>
-        </div>
-    )
-}
+            </p>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
+  );
+};
 
 export default AboutMe;
